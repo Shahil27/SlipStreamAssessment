@@ -131,7 +131,7 @@ namespace API.Controllers
 
             var fileName = "ClientsExportFile" + DateTime.Now.ToString("dd-MM-yyyy-HH_mm_ss");
             var sb = new StringBuilder();
-            var basePath = "C:"; //AppDomain.CurrentDomain.BaseDirectory;
+            var basePath =  AppDomain.CurrentDomain.BaseDirectory; //"C:";
             var finalPath = Path.Combine(basePath, fileName + ".csv");
             var header = "";
             var info = typeof(Client).GetProperties();
