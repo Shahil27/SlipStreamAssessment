@@ -1,0 +1,3 @@
+- Please execute the included 'ClientScript.sql' file to create the necessary database and table.
+- Modify the connection string accordingly (enter your server name etc.)
+- exported text files can be found in the C: drive.
